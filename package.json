@@ -1,0 +1,19 @@
+{
+  "name": "react-data-previewer",
+  "version": "0.5.0",
+  "description": "A data previewer built on top of plotly & material ui",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thedigitalzorn/react-data-visualizer.git"
+  },
+  "author": "Joshua Zorn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thedigitalzorn/react-data-visualizer/issues"
+  },
+  "homepage": "https://github.com/thedigitalzorn/react-data-visualizer#readme"
+}
