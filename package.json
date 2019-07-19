@@ -4,7 +4,8 @@
   "description": "A data previewer built on top of plotly & material ui",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --mode development"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,20 @@
   "bugs": {
     "url": "https://github.com/thedigitalzorn/react-data-visualizer/issues"
   },
-  "homepage": "https://github.com/thedigitalzorn/react-data-visualizer#readme"
+  "homepage": "https://github.com/thedigitalzorn/react-data-visualizer#readme",
+  "dependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "@material-ui/core": "^4.2.1",
+    "@material-ui/icons": "^4.2.1",
+    "babel-loader": "^8.0.6",
+    "plotly.js": "^1.48.3",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-plotly.js": "^2.3.0",
+    "webpack": "^4.36.1",
+    "webpack-cli": "^3.3.6"
+  }
 }
